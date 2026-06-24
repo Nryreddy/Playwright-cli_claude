@@ -7,5 +7,14 @@
     "build": "tsc",
     "test": "playwright test"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }
